@@ -1,0 +1,150 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h2, h3 {
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+  font-size: 1.18rem;
+}
+/* HEADINGS */
+  /* h1 */
+.big-heading {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+}
+  /* h2 */
+.testimonial-headings {
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+  /* h3 */
+.features-heading {
+  font-size: 1.6rem;
+}
+.cta-heading {
+  color: white;
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 8%
+}
+
+.rotate {
+    width: 20.25%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 24.125%;
+}
+
+/* SECTIONS */
+.color-section {
+  background-color: #ff4c68;
+}
+.white-section {
+  background-color: white;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+  .rotate {
+      position: static;
+      transform: rotate(0);
+      width: 60%;
+    }
+}
+
+#features {
+  padding: 5% 15% ;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.htitle {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.navbar {
+  padding: 0 0 10rem 0;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.container-fluid {
+  padding: 5% 15% 8%;
+}
+.apbtn {
+  margin: 5% 3% 5% 0;
+}
+.apple {
+  margin:auto 8px auto 0;
+}
+
+
+.icon-co {
+  color: #EF9A53;
+  margin-bottom: 20px;
+}
+.icon-co:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  color: white;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+}
+.logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  padding: 5%  25%;
+  text-align: center;
+}
+
+.btn-spacing {
+  margin: 0 10px;
+}
+@media (max-width: 650px) {
+  #cta {
+    padding: 5% 2%;
+  }
+}
+#footer {
+  padding: 3% 15% 0;
+  text-align: center;
+}
+.footer-icons {
+  margin: 10px;
+}
